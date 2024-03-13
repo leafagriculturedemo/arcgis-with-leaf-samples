@@ -19,9 +19,9 @@ In the ArcGIS Pro folder, you will find samples to handle the following data:
 
 This is a ready-to-use sample, you can use it directly in ArcGIS Pro. You will need a Leaf account to use it and you can create it [here](https://withleaf.io/account/quickstart).
 
-1 - Download the `Leaf Agriculture.atbx` file and move it to a desired folder;
-2 - Connect the folder with your Catalog and access it;
-3 - Open the toolbox and start with the "Authenticate with Leaf" tool informing your Leaf credentials.
+1. Download the `Leaf Agriculture.atbx` file and move it to a desired folder; 
+2. Connect the folder with your Catalog and access it; 
+3. Open the toolbox and start with the "Authenticate with Leaf" tool informing your Leaf credentials.
 
 More details about the example tools are available in [this tutorial]().
 
@@ -38,9 +38,9 @@ Another integration option is through [Leaf Alerts](https://docs.withleaf.io/doc
 ### How to configure the integration
 
 The sample file contains a toolbox prepared to be published as geoprocessing.
-1 - Open the `Leaf for Enterprise.atbx` toolbox in Pro;
-2 - Edit the example script to add the necessary information, and run the tool;
-3 - After that, perform the geoprocessing publication procedures as described [in the ArcGIS documentation](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geoprocessing/share-analysis/publishing-geoprocessing-service-in-arcgis-pro.htm).
+1. Open the `Leaf for Enterprise.atbx` toolbox in Pro;
+2. Edit the example script to add the necessary information, and run the tool;
+3. After that, perform the geoprocessing publication procedures as described [in the ArcGIS documentation](https://pro.arcgis.com/en/pro-app/latest/help/analysis/geoprocessing/share-analysis/publishing-geoprocessing-service-in-arcgis-pro.htm).
 
 A complete guide and the next steps for configuring the alert are available in [this Leaf tutorial]().
 
