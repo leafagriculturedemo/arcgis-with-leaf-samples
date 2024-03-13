@@ -1,6 +1,6 @@
-# Starting developer for ArcGIS with Leaf API
+# Starting to develop for ArcGIS with Leaf API
 
-In this repository you will find sample codes to use Leaf API resources directly in ArcGIS products, such as ArcGIS Pro, ArcGIS Enterprise and Experience Builder.
+In this repository, you will find sample codes to use Leaf API resources directly in ArcGIS products, such as ArcGIS Pro, ArcGIS Enterprise, and Experience Builder.
 
 ## ArcGIS Pro
 
@@ -17,7 +17,7 @@ In the ArcGIS Pro folder, you will find samples to handle the following data:
 
 ### How to use the Leaf sample toolbox
 
-This is a ready-to-use sample, so you can use it directly in ArcGIS Pro. You will need a Leaf account to use it and you can create it [here](https://withleaf.io/account/quickstart).
+This is a ready-to-use sample, you can use it directly in ArcGIS Pro. You will need a Leaf account to use it and you can create it [here](https://withleaf.io/account/quickstart).
 
 1 - Download the `Leaf Agriculture.atbx` file and move it to a desired folder;
 2 - Connect the folder with your Catalog and access it;
@@ -31,9 +31,9 @@ To edit the files, you can follow [this tutorial](https://pro.arcgis.com/en/pro-
 
 The code can be adjusted to suit your needs. Other Leaf products and more details about each endpoint and integrations can be found in our API tutorials and documentation, [available here](https://withleaf.io/for-developers/).
 
-## ArcGIS Enteprise
+## ArcGIS Enterprise
 
-Another integration option is through [Leaf Alerts](https://docs.withleaf.io/docs/alerts_overview) via webhooks, it means Leaf can notify directly a geoprocessing published in your ArcGIS Enterprise.
+Another integration option is through [Leaf Alerts](https://docs.withleaf.io/docs/alerts_overview) via webhooks, which means Leaf can notify directly a geoprocessing published in your ArcGIS Enterprise.
 
 ### How to configure the integration
 
