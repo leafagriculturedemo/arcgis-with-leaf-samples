@@ -1,0 +1,19 @@
+{
+  "name": "leaf-authentication",
+  "label": "Leaf Authentication Widget",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.0.0",
+  "author": "Leaf",
+  "description": "Leaf Authentication Widget for ArcGIS Experience Builder",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 1200,
+    "height": 800
+  }
+}
