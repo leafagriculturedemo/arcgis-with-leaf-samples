@@ -10,8 +10,6 @@ Authentication with Leaf
 import arcpy
 import os
 import requests
-import tempfile
-import uuid
 
 def get_leaf_token(leaf_username: str, leaf_password: str) -> str:
     """
@@ -33,7 +31,8 @@ def get_leaf_token(leaf_username: str, leaf_password: str) -> str:
     if response.ok:
         token = response.json()["id_token"]
         return token
-    return None
+    else:
+        raise Exception("Authentication failed")
 
 def create_leaf_configuration(token: str):
     """
@@ -68,7 +67,4 @@ if __name__ == "__main__":
     password = arcpy.GetParameterAsText(1)
 
     TOKEN = get_leaf_token(username, password)
-    if not TOKEN:
-        raise Exception("Authentication failed")
-
     create_leaf_configuration(TOKEN)
