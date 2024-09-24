@@ -1,0 +1,103 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.3",
+    "product": "100",
+    "updated": "2024-07-22 10:56:18",
+    "params": {
+        "Workflow": {
+            "displayname": "$rc:workflow.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "Canopy report",
+                        "code": "$rc:workflow.domain.Canopy report"
+                    }
+                ]
+            }
+        },
+        "Repeat every": {
+            "displayname": "$rc:repeat every.title",
+            "datatype": {
+                "type": "GPTimeUnit"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "type": "GPTimeUnit",
+                        "value": "Days",
+                        "code": "Days"
+                    },
+                    {
+                        "type": "GPTimeUnit",
+                        "value": "Weeks",
+                        "code": "Weeks"
+                    },
+                    {
+                        "type": "GPTimeUnit",
+                        "value": "Months",
+                        "code": "Months"
+                    },
+                    {
+                        "type": "GPTimeUnit",
+                        "value": "Years",
+                        "code": "Years"
+                    }
+                ]
+            }
+        },
+        "Repeat On": {
+            "displayname": "$rc:repeat on.title",
+            "datatype": {
+                "type": "GPMultiValue",
+                "datatype": {
+                    "type": "GPString"
+                }
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "Sunday",
+                        "code": "$rc:repeat on.domain.Sunday"
+                    },
+                    {
+                        "value": "Monday",
+                        "code": "$rc:repeat on.domain.Monday"
+                    },
+                    {
+                        "value": "Tuesday",
+                        "code": "$rc:repeat on.domain.Tuesday"
+                    },
+                    {
+                        "value": "Wednesday",
+                        "code": "$rc:repeat on.domain.Wednesday"
+                    },
+                    {
+                        "value": "Thusday",
+                        "code": "$rc:repeat on.domain.Thusday"
+                    },
+                    {
+                        "value": "Friday",
+                        "code": "$rc:repeat on.domain.Friday"
+                    },
+                    {
+                        "value": "Saturday",
+                        "code": "$rc:repeat on.domain.Saturday"
+                    }
+                ]
+            }
+        },
+        "At": {
+            "displayname": "$rc:at.title",
+            "datatype": {
+                "type": "GPDate"
+            }
+        }
+    }
+}

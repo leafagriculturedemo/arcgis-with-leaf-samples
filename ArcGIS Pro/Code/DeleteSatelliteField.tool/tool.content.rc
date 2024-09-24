@@ -1,0 +1,7 @@
+{
+    "map": {
+        "description": "Deletes a satellite field.",
+        "field.title": "Field",
+        "title": "Delete Satellite Field"
+    }
+}

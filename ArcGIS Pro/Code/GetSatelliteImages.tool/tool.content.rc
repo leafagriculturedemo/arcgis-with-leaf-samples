@@ -1,0 +1,27 @@
+{
+    "map": {
+        "date.title": "Image type",
+        "description": "Search for images from an already created satellite field. For this sample, there is a limit of 6 months in the search.",
+        "end_time.title": "End time",
+        "field.domain.Field Alpha": "Field Alpha",
+        "field.domain.Field Beta": "Field Beta",
+        "field.domain.Field Gama": "Field Gama",
+        "field.domain.Field Lambda": "Field Lambda",
+        "field.domain.Field Omega": "Field Omega",
+        "field.domain.Field Pi": "Field Pi",
+        "field.domain.Sentinel test": "Sentinel test",
+        "field.domain.Test Field 10": "Test Field 10",
+        "field.domain.arcgis": "arcgis",
+        "field.domain.ctc": "ctc",
+        "field.domain.mathew": "mathew",
+        "field.domain.white": "white",
+        "field.title": "Field",
+        "image_type.title": "Image",
+        "images.title": "Images available",
+        "params.category1": "Filter",
+        "params.category2": "Availability",
+        "start_time.title": "Start time",
+        "title": "Get Satellite Images",
+        "url.title": "ImageURL"
+    }
+}

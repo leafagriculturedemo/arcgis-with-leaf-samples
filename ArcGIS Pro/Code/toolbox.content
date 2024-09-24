@@ -1,0 +1,47 @@
+{
+    "version": "1.0",
+    "alias": "Leaf",
+    "displayname": "$rc:title",
+    "description": "$rc:descr",
+    "toolsets": {
+        "<root>": {
+            "tools": [
+                "Authentication"
+            ]
+        },
+        "$rc:toolset2.name": {
+            "tools": [
+                "DeleteSatelliteField",
+                "GetBetterLatestSatelliteImage",
+                "GetSatelliteImages",
+                "NewSatelliteField",
+                "SatelliteImageBatch"
+            ]
+        },
+        "$rc:toolset5.name": {
+            "tools": [
+                "GetFieldBoundary",
+                "NewFieldBoundary"
+            ]
+        },
+        "$rc:toolset3.name": {
+            "tools": [
+                "FieldOperations",
+                "MachineFiles"
+            ]
+        },
+        "$rc:toolset4.name": {
+            "tools": [
+                "FileUpload",
+                "MultipleProviderAuthentication",
+                "SingleProviderAuthentication"
+            ]
+        },
+        "$rc:toolset1.name": {
+            "tools": [
+                "ConfigureWorkflow",
+                "ExecuteWorkflow"
+            ]
+        }
+    }
+}

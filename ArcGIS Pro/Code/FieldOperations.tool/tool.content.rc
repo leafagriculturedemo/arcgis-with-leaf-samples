@@ -1,0 +1,27 @@
+{
+    "map": {
+        "description": "Get a Field Operation with the operation points, summary geometry, and the field boundary geometry.",
+        "field.title": "Field",
+        "field_geometry.title": "Field Geometry",
+        "field_id.title": "Field ID",
+        "leaf_user_id.title": "Leaf User ID",
+        "operation_id.title": "Operation ID",
+        "standard_geojson.title": "Standard GeoJSON",
+        "summary.title": "Summary",
+        "title": "Field Operations",
+        "type.title": "Operations",
+        "user.domain.Aaron Donald": "Aaron Donald",
+        "user.domain.Ada Lovelace2027258458": "Ada Lovelace2027258458",
+        "user.domain.Christian McCaffrey": "Christian McCaffrey",
+        "user.domain.Guthierry Almeida": "Guthierry Almeida",
+        "user.domain.Jalen Hurts": "Jalen Hurts",
+        "user.domain.Joe Flacco": "Joe Flacco",
+        "user.domain.Josh Allen": "Josh Allen",
+        "user.domain.Justin Jefferson": "Justin Jefferson",
+        "user.domain.Lamar Jackson": "Lamar Jackson",
+        "user.domain.Patrick Mahomes": "Patrick Mahomes",
+        "user.domain.Test": "Test",
+        "user.domain.Test1": "Test",
+        "user.title": "User"
+    }
+}

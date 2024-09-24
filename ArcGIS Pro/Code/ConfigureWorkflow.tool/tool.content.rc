@@ -1,0 +1,17 @@
+{
+    "map": {
+        "at.title": "At",
+        "repeat every.title": "Repeat Every",
+        "repeat on.domain.Friday": "Friday",
+        "repeat on.domain.Monday": "Monday",
+        "repeat on.domain.Saturday": "Saturday",
+        "repeat on.domain.Sunday": "Sunday",
+        "repeat on.domain.Thusday": "Thusday",
+        "repeat on.domain.Tuesday": "Tuesday",
+        "repeat on.domain.Wednesday": "Wednesday",
+        "repeat on.title": "Repeat On",
+        "title": "Configure Workflow",
+        "workflow.domain.Canopy report": "Canopy report",
+        "workflow.title": "Workflow"
+    }
+}

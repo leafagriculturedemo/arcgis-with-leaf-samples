@@ -1,0 +1,24 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.3",
+    "product": "100",
+    "updated": "2024-07-22 10:58:51",
+    "params": {
+        "Workflow": {
+            "displayname": "$rc:workflow.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "Canopy report",
+                        "code": "$rc:workflow.domain.Canopy report"
+                    }
+                ]
+            }
+        }
+    }
+}
