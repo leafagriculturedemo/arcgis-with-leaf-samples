@@ -264,7 +264,7 @@ def get_fields(feature_layer, column_name):
 
 if __name__ == "__main__":
     try:
-        TOKEN = 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ3aXRobGVhZmludGVncmF0aW9uQHNtYnNjLmNvbSIsImF1dGgiOiJST0xFX1VTRVIiLCJpYXQiOjE3MjA3MjU0MjAsImV4cCI6MTcyMTkxMTgyMH0.mrAJ-oVb41hHvv4JSsovTZ15TgwAD649CvqyJLdIOuqVtChsBTGKT__H9quxP-B_NJUeoV-CVRfbB11bI4SbZA'#get_leaf_token()
+        TOKEN = get_leaf_token()
         if not TOKEN:
             raise Exception("Please authenticate with Leaf again")
 
@@ -282,11 +282,6 @@ if __name__ == "__main__":
         imageType = arcpy.GetParameterAsText(4)
         outputDirectory = arcpy.GetParameterAsText(5)
 
-        #fields = ["field-001", "Field Alpha", "Field Beta", "Field Omega", "tpq"]
-        #startTime = "2024-07-01"
-        #endTime = "2024-07-11"
-        #imageType = "NDRE (colored)"
-        #outputDirectory = r"C:\Users\guthi\OneDrive\Área de Trabalho\SMBSC - new"
         outputFolder = f"{startTime} - {endTime}"
 
         path = os.path.join(outputDirectory, outputFolder)
@@ -294,26 +289,5 @@ if __name__ == "__main__":
             os.makedirs(path)
 
         prepare_to_download(TOKEN, fields, startTime, endTime, imageType, path)
-        '''TOKEN = get_leaf_token()
-        if not TOKEN:
-            raise Exception("Please authenticate with Leaf again")
-
-        fieldId = arcpy.GetParameterAsText(0)
-        arcpy.AddMessage(f"Field '{fieldId}'")
-        if not is_valid_field(TOKEN, fieldId):
-            raise Exception(f"The {fieldId} does not exist.")
-
-        startTime = arcpy.GetParameter(1)
-        endTime = arcpy.GetParameter(2)
-        dateParametersValidation(startTime, endTime)
-        startTime = parse_date(startTime)
-        endTime = parse_date(endTime)
-        imageType = arcpy.GetParameterAsText(3)
-
-        image = download_best_image(TOKEN, fieldId, startTime, endTime, imageType)
-        if image:
-            arcpy.SetParameterAsText(4, image)
-        else:
-            arcpy.AddWarning(f"No image found for '{fieldId}' on given dates")'''
     except Exception as e:
         arcpy.AddError(str(e))

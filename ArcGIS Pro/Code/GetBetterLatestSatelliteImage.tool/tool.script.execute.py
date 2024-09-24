@@ -166,7 +166,7 @@ def download_best_image(TOKEN, fieldId, startTime, endTime, imageType):
     return download_satellite_image(TOKEN, url, field_name)
 if __name__ == "__main__":
     try:
-        TOKEN = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ3aXRobGVhZmludGVncmF0aW9uQHNtYnNjLmNvbSIsImF1dGgiOiJST0xFX1VTRVIiLCJpYXQiOjE3MjA3MjU0MjAsImV4cCI6MTcyMTkxMTgyMH0.mrAJ-oVb41hHvv4JSsovTZ15TgwAD649CvqyJLdIOuqVtChsBTGKT__H9quxP-B_NJUeoV-CVRfbB11bI4SbZA"#get_leaf_token()
+        TOKEN = get_leaf_token()
         if not TOKEN:
             raise Exception("Please authenticate with Leaf again")
         
