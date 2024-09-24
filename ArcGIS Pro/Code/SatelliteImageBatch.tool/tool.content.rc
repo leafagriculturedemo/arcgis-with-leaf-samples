@@ -1,0 +1,17 @@
+{
+    "map": {
+        "end_time.title": "End time",
+        "field_layer.title": "Fields layer",
+        "field_name_column.title": "Field name column",
+        "image_type.domain.Multiband": "Multiband",
+        "image_type.domain.NDRE": "NDRE",
+        "image_type.domain.NDRE (colored)": "NDRE (colored)",
+        "image_type.domain.NDVI": "NDVI",
+        "image_type.domain.NDVI (colored)": "NDVI (colored)",
+        "image_type.domain.RGB": "RGB",
+        "image_type.title": "Image type",
+        "output_directory.title": "Output directory",
+        "start_time.title": "Start time",
+        "title": "Get Satellite Images (Batch)"
+    }
+}

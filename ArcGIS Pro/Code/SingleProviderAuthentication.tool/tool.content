@@ -1,0 +1,15 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.1",
+    "product": "100",
+    "updated": "2024-02-29 11:56:39",
+    "params": {
+        "option": {
+            "displayname": "$rc:option.title",
+            "datatype": {
+                "type": "GPString"
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "map": {
+        "background_color.title": "Background color",
+        "company_logo.title": "Company logo",
+        "company_name.title": "Company name",
+        "description": "Generate a link for users to connect to different providers. The provider must be configured previously.",
+        "email.title": "E-mail",
+        "external_id.title": "External ID",
+        "header_image.title": "Header image",
+        "leaf_user_id.title": "Leaf user ID",
+        "link.title": "Link",
+        "option.domain.Existent user (by External ID)": "Existent user (by External ID)",
+        "option.domain.Existent user (by Name)": "Existent user (by Name)",
+        "option.domain.New user": "New user",
+        "option.title": "Option",
+        "params.category1": "New user",
+        "params.category2": "Customization",
+        "select_user.title": "User",
+        "title": "Multiple Provider Authentication Link",
+        "user_name.title": "User name"
+    }
+}

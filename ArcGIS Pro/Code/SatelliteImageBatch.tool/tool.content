@@ -1,0 +1,77 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.3",
+    "product": "100",
+    "updated": "2024-07-12 14:16:35",
+    "params": {
+        "Field_layer": {
+            "displayname": "$rc:field_layer.title",
+            "datatype": {
+                "type": "GPFeatureLayer"
+            }
+        },
+        "Field_name_column": {
+            "displayname": "$rc:field_name_column.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain"
+            }
+        },
+        "Start_time": {
+            "displayname": "$rc:start_time.title",
+            "datatype": {
+                "type": "GPDate"
+            }
+        },
+        "End_time": {
+            "displayname": "$rc:end_time.title",
+            "datatype": {
+                "type": "GPDate"
+            }
+        },
+        "Image_type": {
+            "displayname": "$rc:image_type.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "NDVI (colored)",
+                        "code": "$rc:image_type.domain.NDVI (colored)"
+                    },
+                    {
+                        "value": "NDVI",
+                        "code": "$rc:image_type.domain.NDVI"
+                    },
+                    {
+                        "value": "NDRE (colored)",
+                        "code": "$rc:image_type.domain.NDRE (colored)"
+                    },
+                    {
+                        "value": "NDRE",
+                        "code": "$rc:image_type.domain.NDRE"
+                    },
+                    {
+                        "value": "Multiband",
+                        "code": "$rc:image_type.domain.Multiband"
+                    },
+                    {
+                        "value": "RGB",
+                        "code": "$rc:image_type.domain.RGB"
+                    }
+                ]
+            }
+        },
+        "Output_directory": {
+            "displayname": "$rc:output_directory.title",
+            "datatype": {
+                "type": "DEFolder"
+            }
+        }
+    }
+}

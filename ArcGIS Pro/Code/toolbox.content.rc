@@ -1,0 +1,11 @@
+{
+    "map": {
+        "descr": "Version 0.3",
+        "title": "Leaf",
+        "toolset1.name": "Workflow",
+        "toolset2.name": "Crop Monitoring",
+        "toolset3.name": "Field Operations",
+        "toolset4.name": "Magic Link",
+        "toolset5.name": "Field Boundary Management"
+    }
+}

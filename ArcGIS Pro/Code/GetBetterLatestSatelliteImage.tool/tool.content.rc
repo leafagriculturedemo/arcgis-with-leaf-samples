@@ -1,0 +1,17 @@
+{
+    "map": {
+        "description": "Returns the most recent image within the filtered time period with better field coverage and lower cloud coverage. If the filter is not provided, the most recent image available will be returned.",
+        "end_time.title": "End time",
+        "field.title": "Field",
+        "image.title": "Image",
+        "image_type.domain.Multiband": "Multiband",
+        "image_type.domain.NDRE": "NDRE",
+        "image_type.domain.NDRE (colored)": "NDRE (colored)",
+        "image_type.domain.NDVI": "NDVI",
+        "image_type.domain.NDVI (colored)": "NDVI (colored)",
+        "image_type.domain.RGB": "RGB",
+        "image_type.title": "Image type",
+        "start_time.title": "Start time",
+        "title": "Get Satellite Image (for Model Builder)"
+    }
+}

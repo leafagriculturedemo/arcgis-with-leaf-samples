@@ -1,0 +1,8 @@
+{
+    "map": {
+        "api_owner.title": "API Owner",
+        "description": "It is required before using the toolbox. There is a validation requiring the authentication every 24 hours.\n\nYou need to use your e-mail registered with Leaf in the \"API Owner\" field and the password too.",
+        "password.title": "Password",
+        "title": "Authenticate with Leaf"
+    }
+}

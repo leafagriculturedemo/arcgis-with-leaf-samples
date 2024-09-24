@@ -1,0 +1,86 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.1",
+    "product": "100",
+    "updated": "2024-02-29 13:18:41",
+    "params": {
+        "user": {
+            "displayname": "$rc:user.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "41155883600010",
+                        "code": "$rc:user.domain.41155883600010"
+                    },
+                    {
+                        "value": "70001",
+                        "code": "$rc:user.domain.70001"
+                    },
+                    {
+                        "value": "Davi",
+                        "code": "$rc:user.domain.Davi"
+                    },
+                    {
+                        "value": "Gutz",
+                        "code": "$rc:user.domain.Gutz"
+                    },
+                    {
+                        "value": "Rodrigo",
+                        "code": "$rc:user.domain.Rodrigo"
+                    },
+                    {
+                        "value": "user_name",
+                        "code": "$rc:user.domain.user_name"
+                    },
+                    {
+                        "value": "user_name",
+                        "code": "$rc:user.domain.user_name1"
+                    }
+                ]
+            }
+        },
+        "farm": {
+            "type": "optional",
+            "displayname": "$rc:farm.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "depends": [
+                "user"
+            ]
+        },
+        "leaf_user_id": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:leaf_user_id.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "depends": [
+                "user"
+            ]
+        },
+        "farm_id": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:farm_id.title",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "fields": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:fields.title",
+            "datatype": {
+                "type": "GPFeatureLayer"
+            }
+        }
+    },
+    "description": "$rc:description"
+}

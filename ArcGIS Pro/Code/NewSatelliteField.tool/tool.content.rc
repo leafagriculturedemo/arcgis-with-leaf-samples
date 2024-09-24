@@ -1,0 +1,12 @@
+{
+    "map": {
+        "description": "It will create an area of interested based in the given geometry to be continuously monitored forever.",
+        "field_name_column.title": "Field name column",
+        "fields.title": "Field(s)",
+        "providers.domain.planet": "planet",
+        "providers.domain.sentinel": "sentinel",
+        "providers.title": "Providers",
+        "start_date.title": "Past",
+        "title": "New Satellite Fields"
+    }
+}

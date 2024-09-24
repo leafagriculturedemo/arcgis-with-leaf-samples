@@ -1,0 +1,22 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.1",
+    "product": "100",
+    "updated": "2024-02-29 13:46:03",
+    "params": {
+        "API_Owner": {
+            "displayname": "$rc:api_owner.title",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "Password": {
+            "displayname": "$rc:password.title",
+            "datatype": {
+                "type": "GPStringHidden"
+            }
+        }
+    },
+    "description": "$rc:description"
+}

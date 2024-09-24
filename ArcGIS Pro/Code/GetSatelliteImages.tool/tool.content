@@ -1,0 +1,122 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.2",
+    "product": "100",
+    "updated": "2024-04-26 00:21:10",
+    "description": "$rc:description",
+    "params": {
+        "field": {
+            "displayname": "$rc:field.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "Field Alpha",
+                        "code": "$rc:field.domain.Field Alpha"
+                    },
+                    {
+                        "value": "Field Beta",
+                        "code": "$rc:field.domain.Field Beta"
+                    },
+                    {
+                        "value": "Field Gama",
+                        "code": "$rc:field.domain.Field Gama"
+                    },
+                    {
+                        "value": "Field Lambda",
+                        "code": "$rc:field.domain.Field Lambda"
+                    },
+                    {
+                        "value": "Field Omega",
+                        "code": "$rc:field.domain.Field Omega"
+                    },
+                    {
+                        "value": "Field Pi",
+                        "code": "$rc:field.domain.Field Pi"
+                    },
+                    {
+                        "value": "Sentinel test",
+                        "code": "$rc:field.domain.Sentinel test"
+                    },
+                    {
+                        "value": "Test Field 10",
+                        "code": "$rc:field.domain.Test Field 10"
+                    },
+                    {
+                        "value": "arcgis",
+                        "code": "$rc:field.domain.arcgis"
+                    },
+                    {
+                        "value": "ctc",
+                        "code": "$rc:field.domain.ctc"
+                    },
+                    {
+                        "value": "mathew",
+                        "code": "$rc:field.domain.mathew"
+                    },
+                    {
+                        "value": "white",
+                        "code": "$rc:field.domain.white"
+                    }
+                ]
+            }
+        },
+        "start_time": {
+            "displayname": "$rc:start_time.title",
+            "category": "$rc:params.category1",
+            "datatype": {
+                "type": "GPDate"
+            }
+        },
+        "end_time": {
+            "displayname": "$rc:end_time.title",
+            "category": "$rc:params.category1",
+            "datatype": {
+                "type": "GPDate"
+            }
+        },
+        "images": {
+            "displayname": "$rc:images.title",
+            "category": "$rc:params.category2",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain"
+            }
+        },
+        "date": {
+            "displayname": "$rc:date.title",
+            "category": "$rc:params.category2",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain"
+            },
+            "depends": [
+                "images"
+            ]
+        },
+        "url": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:url.title",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "image_type": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:image_type.title",
+            "datatype": {
+                "type": "GPRasterLayer"
+            }
+        }
+    }
+}

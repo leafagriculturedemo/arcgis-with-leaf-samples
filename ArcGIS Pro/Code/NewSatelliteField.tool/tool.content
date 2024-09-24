@@ -1,0 +1,64 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.1",
+    "description": "$rc:description",
+    "product": "100",
+    "updated": "2024-07-11 16:48:39",
+    "params": {
+        "fields": {
+            "displayname": "$rc:fields.title",
+            "datatype": {
+                "type": "GPFeatureLayer"
+            },
+            "domain": {
+                "type": "GPFeatureClassDomain",
+                "geometrytype": [
+                    "Polygon"
+                ]
+            }
+        },
+        "field_name_column": {
+            "displayname": "$rc:field_name_column.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain"
+            },
+            "depends": [
+                "fields"
+            ]
+        },
+        "providers": {
+            "displayname": "$rc:providers.title",
+            "datatype": {
+                "type": "GPMultiValue",
+                "datatype": {
+                    "type": "GPString"
+                }
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "planet",
+                        "code": "$rc:providers.domain.planet"
+                    },
+                    {
+                        "value": "sentinel",
+                        "code": "$rc:providers.domain.sentinel"
+                    }
+                ]
+            }
+        },
+        "start_date": {
+            "type": "optional",
+            "displayname": "$rc:start_date.title",
+            "datatype": {
+                "type": "GPDate"
+            },
+            "value": "01/21/2024"
+        }
+    }
+}

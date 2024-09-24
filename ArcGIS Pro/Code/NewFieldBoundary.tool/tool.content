@@ -1,0 +1,113 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.1",
+    "product": "100",
+    "updated": "2024-03-13 12:14:44",
+    "params": {
+        "fields": {
+            "displayname": "$rc:fields.title",
+            "datatype": {
+                "type": "GPMultiValue",
+                "datatype": {
+                    "type": "GPFeatureLayer"
+                }
+            }
+        },
+        "leaf_user": {
+            "displayname": "$rc:leaf_user.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "Aaron Donald (7f7a739a-ea31-411d-92f4-ac4e7473a1fa)",
+                        "code": "$rc:leaf_user.domain.Aaron Donald (7f7a739a-ea31-411d-92f4-ac4e7473a1fa)"
+                    },
+                    {
+                        "value": "Ada Lovelace1243025982 (0fe22307-2765-42be-babe-2f0eca6d55ef)",
+                        "code": "$rc:leaf_user.domain.Ada Lovelace1243025982 (0fe22307-2765-42be-babe-2f0eca6d55ef)"
+                    },
+                    {
+                        "value": "ArcGISUserId (99808f12-f209-4f56-9252-e6d138ab5f4d)",
+                        "code": "$rc:leaf_user.domain.ArcGISUserId (99808f12-f209-4f56-9252-e6d138ab5f4d)"
+                    },
+                    {
+                        "value": "Christian McCaffrey (bbcfb2be-ba2b-4967-8b28-77313d783915)",
+                        "code": "$rc:leaf_user.domain.Christian McCaffrey (bbcfb2be-ba2b-4967-8b28-77313d783915)"
+                    },
+                    {
+                        "value": "Guthierry Almeida (f7037156-95f9-4230-a6b1-12bfa08ed111)",
+                        "code": "$rc:leaf_user.domain.Guthierry Almeida (f7037156-95f9-4230-a6b1-12bfa08ed111)"
+                    },
+                    {
+                        "value": "Jalen Hurts (49887adf-eda0-42f3-b8bc-6752218f8c29)",
+                        "code": "$rc:leaf_user.domain.Jalen Hurts (49887adf-eda0-42f3-b8bc-6752218f8c29)"
+                    },
+                    {
+                        "value": "Joe Flacco (bfa69ef7-7577-4902-9e93-890e2878e1fc)",
+                        "code": "$rc:leaf_user.domain.Joe Flacco (bfa69ef7-7577-4902-9e93-890e2878e1fc)"
+                    },
+                    {
+                        "value": "Josh Allen (ab27b8cd-2e05-41c9-824d-d7afdb03a424)",
+                        "code": "$rc:leaf_user.domain.Josh Allen (ab27b8cd-2e05-41c9-824d-d7afdb03a424)"
+                    },
+                    {
+                        "value": "Justin Jefferson (435527dc-978b-407f-9ea1-ac617f18ca8c)",
+                        "code": "$rc:leaf_user.domain.Justin Jefferson (435527dc-978b-407f-9ea1-ac617f18ca8c)"
+                    },
+                    {
+                        "value": "Lamar Jackson (c4dabef9-c2b2-4216-b7b5-924a775af38b)",
+                        "code": "$rc:leaf_user.domain.Lamar Jackson (c4dabef9-c2b2-4216-b7b5-924a775af38b)"
+                    },
+                    {
+                        "value": "Patrick Mahomes (34aaa894-d104-4567-84b9-7a25c4e60530)",
+                        "code": "$rc:leaf_user.domain.Patrick Mahomes (34aaa894-d104-4567-84b9-7a25c4e60530)"
+                    },
+                    {
+                        "value": "Steve Renter (a1dca9df-063d-404d-9401-ed44ad979ef7)",
+                        "code": "$rc:leaf_user.domain.Steve Renter (a1dca9df-063d-404d-9401-ed44ad979ef7)"
+                    },
+                    {
+                        "value": "Test A (609d32cf-e712-4e52-852c-09d66944315d)",
+                        "code": "$rc:leaf_user.domain.Test A (609d32cf-e712-4e52-852c-09d66944315d)"
+                    },
+                    {
+                        "value": "Teste B (fb90f794-dda6-43f6-9998-666f3aea978c)",
+                        "code": "$rc:leaf_user.domain.Teste B (fb90f794-dda6-43f6-9998-666f3aea978c)"
+                    },
+                    {
+                        "value": "Tiquinho Soares (1d5dec16-0a34-4868-8250-4c648f909523)",
+                        "code": "$rc:leaf_user.domain.Tiquinho Soares (1d5dec16-0a34-4868-8250-4c648f909523)"
+                    },
+                    {
+                        "value": "test (3049cd06-39c2-414f-a0ec-cb1e05016990)",
+                        "code": "$rc:leaf_user.domain.test (3049cd06-39c2-414f-a0ec-cb1e05016990)"
+                    },
+                    {
+                        "value": "user_name (816a5f09-e63d-4b59-8a93-aa638003a3b7)",
+                        "code": "$rc:leaf_user.domain.user_name (816a5f09-e63d-4b59-8a93-aa638003a3b7)"
+                    }
+                ]
+            }
+        },
+        "leaf_user_id": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:leaf_user_id.title",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "upload_id": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:upload_id.title",
+            "datatype": {
+                "type": "GPString"
+            }
+        }
+    }
+}

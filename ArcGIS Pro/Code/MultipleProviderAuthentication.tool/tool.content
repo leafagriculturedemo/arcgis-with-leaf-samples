@@ -1,0 +1,120 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.1",
+    "product": "100",
+    "updated": "2024-02-29 13:41:18",
+    "params": {
+        "option": {
+            "displayname": "$rc:option.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "New user",
+                        "code": "$rc:option.domain.New user"
+                    },
+                    {
+                        "value": "Existent user (by Name)",
+                        "code": "$rc:option.domain.Existent user (by Name)"
+                    },
+                    {
+                        "value": "Existent user (by External ID)",
+                        "code": "$rc:option.domain.Existent user (by External ID)"
+                    }
+                ]
+            }
+        },
+        "external_id": {
+            "type": "optional",
+            "displayname": "$rc:external_id.title",
+            "category": "$rc:params.category1",
+            "datatype": {
+                "type": "GPString"
+            },
+            "depends": [
+                "option"
+            ]
+        },
+        "user_name": {
+            "type": "optional",
+            "displayname": "$rc:user_name.title",
+            "category": "$rc:params.category1",
+            "datatype": {
+                "type": "GPString"
+            },
+            "depends": [
+                "option"
+            ]
+        },
+        "email": {
+            "type": "optional",
+            "displayname": "$rc:email.title",
+            "category": "$rc:params.category1",
+            "datatype": {
+                "type": "GPString"
+            },
+            "depends": [
+                "option"
+            ]
+        },
+        "select_user": {
+            "type": "optional",
+            "displayname": "$rc:select_user.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "depends": [
+                "option"
+            ]
+        },
+        "company_name": {
+            "displayname": "$rc:company_name.title",
+            "category": "$rc:params.category2",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "company_logo": {
+            "displayname": "$rc:company_logo.title",
+            "category": "$rc:params.category2",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "header_image": {
+            "displayname": "$rc:header_image.title",
+            "category": "$rc:params.category2",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "Background_color": {
+            "displayname": "$rc:background_color.title",
+            "category": "$rc:params.category2",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "leaf_user_id": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:leaf_user_id.title",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "link": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:link.title",
+            "datatype": {
+                "type": "GPString"
+            }
+        }
+    },
+    "description": "$rc:description"
+}

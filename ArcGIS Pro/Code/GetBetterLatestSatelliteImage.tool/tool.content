@@ -1,0 +1,74 @@
+{
+    "type": "ScriptTool",
+    "displayname": "$rc:title",
+    "app_ver": "13.2",
+    "product": "100",
+    "updated": "2024-04-27 01:14:33",
+    "description": "$rc:description",
+    "params": {
+        "field": {
+            "displayname": "$rc:field.title",
+            "datatype": {
+                "type": "GPString"
+            }
+        },
+        "start_time": {
+            "displayname": "$rc:start_time.title",
+            "datatype": {
+                "type": "GPDate"
+            },
+            "value": "04/19/2024 22:14:09"
+        },
+        "end_time": {
+            "displayname": "$rc:end_time.title",
+            "datatype": {
+                "type": "GPDate"
+            },
+            "value": "04/26/2024 22:14:09"
+        },
+        "image_type": {
+            "displayname": "$rc:image_type.title",
+            "datatype": {
+                "type": "GPString"
+            },
+            "domain": {
+                "type": "GPCodedValueDomain",
+                "items": [
+                    {
+                        "value": "Multiband",
+                        "code": "$rc:image_type.domain.Multiband"
+                    },
+                    {
+                        "value": "NDVI",
+                        "code": "$rc:image_type.domain.NDVI"
+                    },
+                    {
+                        "value": "NDVI (colored)",
+                        "code": "$rc:image_type.domain.NDVI (colored)"
+                    },
+                    {
+                        "value": "NDRE",
+                        "code": "$rc:image_type.domain.NDRE"
+                    },
+                    {
+                        "value": "NDRE (colored)",
+                        "code": "$rc:image_type.domain.NDRE (colored)"
+                    },
+                    {
+                        "value": "RGB",
+                        "code": "$rc:image_type.domain.RGB"
+                    }
+                ]
+            },
+            "value": "Multiband"
+        },
+        "image": {
+            "type": "derived",
+            "direction": "out",
+            "displayname": "$rc:image.title",
+            "datatype": {
+                "type": "GPRasterLayer"
+            }
+        }
+    }
+}
